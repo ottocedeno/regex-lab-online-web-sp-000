@@ -22,5 +22,3 @@ end
 def valid_phone_number?(phone)
   phone.scan(/\d/).length == 10
 end
-
-print starts_with_a_vowel?("Asshole")
