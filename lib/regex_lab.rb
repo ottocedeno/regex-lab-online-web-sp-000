@@ -13,7 +13,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   #answer from the Flatiron tech coach:
-  text.match(/^[A-Z].+[\.!?]/) ? true : false
+  text.match(/^[A-Z].+[\.!?]$/) ? true : false
 
   #my first attempt:
   # text[0] == text.scan(/[A-Z]/)[0] && (text[text.length - 1] == text[text.length - 1].scan(/[.!?]/)[0])
